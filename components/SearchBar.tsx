@@ -20,9 +20,9 @@ const SearchBar = ({setManufacturer, setModel}) => {
 
     const handleSearch = (e: React.FormEvent<HTMLFormElement>) =>{
       e.preventDefault();
-      if(searchManufacturer === '' && searchModel === ''){
-        return alert("Veuillez remplir le champ de recherche");
-      }    
+      // if(searchManufacturer === '' && searchModel === ''){
+      //   return alert("Veuillez remplir le champ de recherche");
+      // }    
 
       setModel(searchModel);
       setManufacturer(searchManufacturer);
